@@ -14,10 +14,6 @@ if (numero_1 == numero_2 && numero_1 == numero_3){
     console.log(`O maior numero é ${numero_2}, presentes nas variáveis numero_2 e numero_3`)
 } else if (numero_1 > numero_2 && numero_1 == numero_3){
     console.log(`O maior numero é ${numero_1}, presentes nas variáveis numero_1 e numero_3`)
-} 
-
-
-
-else {
+} else {
     console.log(`O maior número é ${numero_3}`)
 }
