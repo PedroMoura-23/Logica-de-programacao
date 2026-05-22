@@ -1,0 +1,22 @@
+h1 { /* tag que quero formatar no código de html */
+    color: rgb(206, 226, 26); /* propriedade color (cor) e o valor que eu atribui a ele, no caso brown */
+}
+p { /* tag p, de parágrafo */
+    color: rgb(35, 48, 221); /* mesma coisa, so que outra cor */
+}
+div {
+    border: 1px solid black;
+    width: 250px ; /* o comando width modifica a largura da caixa div */
+    height: 50px ; /* esse comando modifica a altura da caixa div */
+}
+#div1 { /* MUITO IMPORTANTE, quando vc quer modificar uma tag, tipo o " p " lá em cima, vc pode colocar só o p, mas quando vc quer modificar so um, vc coloa uma " # " antes do id*/
+    color: aliceblue;
+    background-color: rgb(0, 162, 255);
+}
+#div2 {
+    color: aliceblue;
+    background-color: rgb(255, 0, 149);
+}
+
+
+/* um bom site para vc usar para aprender é o w3schools.com, lá ensina a usar os codigos para personalizar o site. */
