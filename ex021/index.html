@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doação de Sangue</title>
+</head>
+<body>
+    <h1>Doação de Sangue</h1>
+    <h3>Parabéns pela iniciativa, mas antes, vamos verificar alguns dados importantes</h3>
+    <!-- Input da Data de Nascimento do indiduo -->
+    <p>
+        <label for="data">Qual sua data de nascimento</label>
+        <input type="date" name="" id="data">
+    </p>
+    <!-- entrada para saber se ele tem alguma doença -->
+     <p>
+        <label for="">Possui alguma doença?</label> <!-- frase inicial -->
+        <input type="radio" name="sick" id="inputnosick" value="no">     
+        <label for="inputnosick">Não</label>
+    </p>
+    <!-- Entrada - Peso corporal -->
+    <p>
+        <label for="peso">Peso atual:</label>
+        <input type="number" name="" id="peso">
+    </p>
+    <!-- Entrada - possui tatuagem -->
+     <p>
+        <label for="">Fez alguma tatuagem recente?</label>
+        <input type="radio" name="tatoo" id="inputyestatoo" value="yes"> <!-- quando a pessoa marcar a bolinha, o VALOR (value) que chega na programação é o nome, no caso, "yes" ou "no"-->
+        <label for="inputyestatoo">Sim</label>
+        <input type="radio" name="tatoo" id="inputnotatoo" value="no">
+        <label for="inputnotatoo">Não</label>
+     </p>
+     <!-- Entrada - Toma algum medicamento? -->
+      <p>
+        <label for="">Faz uso de algum medicamento?</label>
+        <input type="radio" name="medic" id="inputyesmedic" value="yes">
+        <label for="inputyesmedic">Sim</label>
+        <input type="radio" name="medic" id="inputnomedic" value="no">
+        <label for="inputnomedic">Não</label>
+      </p>
+      <input type="submit" value="verificar" onclick="verificar()">
+      <!-- <input type="button" value="Verificar" id="verificar" onclick="verificar()"> -->
+      <p id="resultado">O resultado vai aparecer aqui...</p>
+      <script src="script.js"></script>
+
+</body>
+</html>
